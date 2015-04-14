@@ -1,0 +1,22 @@
+{
+    "name": "angrycoders/sample-module",
+    "version": "0.0.0",
+    "description": "a sample module as an illustration",
+    "license": "MIT",
+    "keywords": ["sample", "module"],
+    "authors": [
+        {
+            "name": "GochoMugo",
+            "email": "mugo@forfuture.co.ke"
+        }
+    ],
+    "require": {
+        "angrycoders/db": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "Jkuatapp\\SampleModule": "src/"
+        }
+    }
+}
